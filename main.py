@@ -58,9 +58,9 @@ print("Shape: \n",df.shape)
 
 #%%
 def visualize_training_results(results):
-    """
-    Plots the loss and accuracy for the training and testing data
-    """
+    
+    #Plots the loss and accuracy for the training and testing data
+    
     history = results.history
     plt.figure(figsize=(12,4))
     plt.plot(history['val_loss'])
